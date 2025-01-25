@@ -4,9 +4,7 @@
 <head>
     <meta charset="utf-8">
     <title>KOPPEE - Coffee Shop HTML Template</title>
-    <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <meta content="Free Website Template" name="keywords">
-    <meta content="Free Website Template" name="description">
+    
 
     <!-- Favicon -->
     <link href="img/favicon.ico" rel="icon">
@@ -299,39 +297,40 @@
                         <div class="text-center p-5" style="background: rgba(51, 33, 29, .8);">
                             <h1 class="text-white mb-4 mt-5">Book Your Table</h1>
 
-                            <form class="mb-5" method="POST" action="reservation.php">
+                            <form class="mb-5" action="reservation.php" method="POST" >
                                 <div class="form-group">
-                                    <input type="text" class="form-control bg-transparent border-primary p-4" placeholder="Name"
+                                    <input type="text" class="form-control bg-transparent border-primary p-4" placeholder="Name" id="name" name="name"
                                         required="required" />
                                 </div>
                                 <div class="form-group">
-                                    <input type="email" class="form-control bg-transparent border-primary p-4" placeholder="Email"
+                                    <input type="email" class="form-control bg-transparent border-primary p-4" placeholder="Email" id="email" name="email"
                                         required="required" />
                                 </div>
                                 <div class="form-group">
                                     <div class="date" id="date" data-target-input="nearest">
-                                        <input type="text" class="form-control bg-transparent border-primary p-4 datetimepicker-input" placeholder="Date" data-target="#date" data-toggle="datetimepicker"/>
+                                        <input type="text" class="form-control bg-transparent border-primary p-4 datetimepicker-input" placeholder="Date" id="date" name="reservation_date" data-target="#date" data-toggle="datetimepicker"/>
                                     </div>
                                 </div>
                                 <div class="form-group">
                                     <div class="time" id="time" data-target-input="nearest">
-                                        <input type="text" class="form-control bg-transparent border-primary p-4 datetimepicker-input" placeholder="Time" data-target="#time" data-toggle="datetimepicker"/>
+                                        <input type="text" class="form-control bg-transparent border-primary p-4 datetimepicker-input" placeholder="Time" id="time" name="reservation_time" data-target="#time" data-toggle="datetimepicker"/>
                                     </div>
                                 </div>
                                 <div class="form-group">
-                                    <select class="custom-select bg-transparent border-primary px-4" style="height: 49px;" name="person" required>
+                                    <select class="custom-select bg-transparent border-primary px-4" style="height: 49px;" name="person" requiredv >
                                         <option value="" disabled selected>Person</option>
-                                        <option value="1">1 Person </option>
-                                        <option value="2">2 Persons </option>
-                                        <option value="3">3 Persons </option>
-                                        <option value="3">4 Persons </option>
+                                        <option value="1">1 Person</option>
+                                        <option value="2">2 Persons</option>
+                                        <option value="3">3 Persons</option>
+                                        <option value="4">4 Persons</option>
                                     </select>
                                 </div>
                                 
                                 <div>
-                                    <button class="btn btn-primary btn-block font-weight-bold py-3" type="submit">Book Now</button>
+                                    <input class="btn btn-primary btn-block font-weight-bold py-3" type="submit">
                                 </div>
                             </form>
+
                         </div>
                     </div>
                 </div>

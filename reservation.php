@@ -1,40 +1,24 @@
+
 <?php
-if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    // Database connection details
-    $servername = "localhost";
-    $username = "root@localhost";
-    $password = "";
-    $dbname = "coffee_cafe";
+$name = $_POST['name'];
+$email = $_POST['email'];
+$reservation_date = $_POST['reservation_date'];
+$reservation_time = $_POST['reservation_time'];
+$person = $_POST['person'];
 
-    // Create a connection
-    $conn = new mysqli($servername, $username, $password, $dbname);
+//Database connection
+$conn = new mysqli('localhost', 'root','', 'test');
+if($conn->connect_error) {
+    die('Connection Failed:' .$conn->connect_error);
+}else{
+$stmt = $conn->prepare("insert into reservations (name, email, reservation_date, reservation_time, person)
+            values(?, ?, ?, ?, ?)");
+$stmt->bind_param("ssssi", $name, $email, $reservation_date, $reservation_time, $person);
+$stmt->execute();
 
-    // Check connection
-    if ($conn->connect_error) {
-        die("Connection failed: " . $conn->connect_error);
-    }
+echo "registration Successfully...";
+$stmt->close();
+$conn->close();
 
-    // Sanitize and retrieve form data
-    $name = $conn->real_escape_string($_POST['name']);
-    $email = $conn->real_escape_string($_POST['email']);
-    $reservation_date = $conn->real_escape_string($_POST['reservation_date']);
-    $reservation_time = $conn->real_escape_string($_POST['reservation_time']);
-    $person = isset($_POST['person']) ? intval($_POST['person']) : 1;
-
-    // Insert data into the reservations table
-    $sql = "INSERT INTO reservations (name, email, reservation_date, reservation_time, person)
-            VALUES ('$name', '$email', '$reservation_date', '$reservation_time', $person)";
-
-    if ($conn->query($sql) === TRUE) {
-        echo "<p>Reservation successful! Thank you, $name.</p>";
-    } else {
-        echo "<p>Error: " . $sql . "<br>" . $conn->error . "</p>";
-    }
-
-    // Close connection
-    $conn->close();
-}
-else {
-    echo "Invalid request method!";
-}
+}   
 ?>
