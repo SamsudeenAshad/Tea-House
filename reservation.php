@@ -2,7 +2,7 @@
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Database connection details
     $servername = "localhost";
-    $username = "root";
+    $username = "root@localhost";
     $password = "";
     $dbname = "coffee_cafe";
 
@@ -33,5 +33,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     // Close connection
     $conn->close();
+}
+else {
+    echo "Invalid request method!";
 }
 ?>
