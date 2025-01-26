@@ -27,9 +27,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             VALUES ('$name', '$email', '$reservation_date', '$reservation_time', $person)";
 
     if ($conn->query($sql) === TRUE) {
-        echo "<p>Reservation successful! Thank you, $name.</p>";
+        header("Location: reservationsucess.php");
     } else {
-        echo "<p>Error: " . $sql . "<br>" . $conn->error . "</p>";
+        header("Location: 404.php");
     }
 
     // Close connection

@@ -1,12 +1,13 @@
+<?php
+    include 'connection.php';
+?>
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="utf-8">
     <title>KOPPEE - Coffee Shop HTML Template</title>
-    <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <meta content="Free Website Template" name="keywords">
-    <meta content="Free Website Template" name="description">
+    
 
     <!-- Favicon -->
     <link href="img/favicon.ico" rel="icon">
@@ -38,68 +39,40 @@
             </button>
             <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                 <div class="navbar-nav ml-auto p-4">
-                    <a href="index.html" class="nav-item nav-link active">Home</a>
-                    <a href="about.html" class="nav-item nav-link">About</a>
-                    <a href="service.html" class="nav-item nav-link">Service</a>
-                    <a href="menu.html" class="nav-item nav-link">Menu</a>
-                    <a href="reservation.html" class="nav-item nav-link">Reservation</a>
-                    <a href="teammembers.html" class="nav-item nav-link">Team Members</a>                   
-                    <a href="contact.html" class="nav-item nav-link">Contact</a>
+                    <a href="index.php" class="nav-item nav-link active">Home</a>
+                    <a href="about.php" class="nav-item nav-link">About</a>
+                    <a href="service.php" class="nav-item nav-link">Service</a>
+                    <a href="menu.php" class="nav-item nav-link">Menu</a>
+                    <a href="reservation.php" class="nav-item nav-link">Reservation</a>
+                    <a href="teammembers.php" class="nav-item nav-link">Team Members</a>                   
+                    <a href="contact.php" class="nav-item nav-link">Contact</a>
                 </div>
             </div>
         </nav>
     </div>
     <!-- Navbar End -->
 
-
-    <!-- Page Header Start -->
-    <div class="container-fluid page-header mb-5 position-relative overlay-bottom">
-        <div class="d-flex flex-column align-items-center justify-content-center pt-0 pt-lg-5" style="min-height: 400px">
-            <h1 class="display-4 mb-3 mt-0 mt-lg-5 text-white text-uppercase">About Us</h1>
-            <div class="d-inline-flex mb-lg-5">
-                <p class="m-0 text-white"><a class="text-white" href="">Home</a></p>
-                <p class="m-0 text-white px-2">/</p>
-                <p class="m-0 text-white">About Us</p>
-            </div>
-        </div>
-    </div>
-    <!-- Page Header End -->
-
-
-    <!-- About Start -->
-    <div class="container-fluid py-5">
-        <div class="container">
-            <div class="section-title">
-                <h4 class="text-primary text-uppercase" style="letter-spacing: 5px;">About Us</h4>
-                <h1 class="display-4">Serving Since 2025</h1>
-            </div>
-            <div class="row">
-                <div class="col-lg-4 py-0 py-lg-5">
-                    <h1 class="mb-3">Our Story</h1>
-                    <h5 class="mb-3"> At Thilini Cafe House, every cup of coffee tells a story. From humble beginnings, we envisioned a place where rich, aromatic brews and warm smiles come together to create unforgettable moments.</h5>
-                    <p> Nestled in the heart of the community, we pride ourselves on offering the perfect blend of tradition and creativity. Each sip is crafted with passion, using the finest beans sourced responsibly from around the world.
-                        <br><br>
-                        Our journey is fueled by a love for coffee and a commitment to bringing people together. Whether it’s a quiet corner for reflection or lively conversations with friends,  is where stories are brewed, one cup at a time.</p>
-                    <a href="" class="btn btn-secondary font-weight-bold py-2 px-4 mt-2">Learn More</a>
-                </div>
-                <div class="col-lg-4 py-5 py-lg-0" style="min-height: 500px;">
-                    <div class="position-relative h-100">
-                        <img class="position-absolute w-100 h-100" src="img/about.png" style="object-fit: cover;">
+    <!-- Carousel Start -->
+    <div class="container-fluid p-0 mb-5">
+        <div id="blog-carousel" class="carousel slide overlay-bottom" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="w-100" src="img/carousel-1.jpg" alt="Image">
+                    <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                        <h2 class="text-primary font-weight-medium m-0">We Contact You Soon </h2>
+                        <h1 class="display-1 text-white m-0">Reservation Sucessful</h1>
+                        <h2 class="text-white m-0">* Thank for Reservation *</h2>
                     </div>
                 </div>
-                <div class="col-lg-4 py-0 py-lg-5">
-                    <h1 class="mb-3">Our Vision</h1>
-                    <p>To create a space where every cup of coffee inspires connection, joy, and creativity. At [Your Café Name], we envision a community brought together by a shared love for exceptional brews, warm hospitality, and meaningful moments.<p></p>                    
-                    
-                    <h5 class="mb-3"><i class="fa fa-check text-primary mr-3"></i>Crafting exceptional coffee experiences with passion and care.</h5>
-                    <h5 class="mb-3"><i class="fa fa-check text-primary mr-3"></i>Fostering a warm and welcoming environment for everyone.</h5>
-                    <h5 class="mb-3"><i class="fa fa-check text-primary mr-3"></i>Supporting sustainability by sourcing responsibly and giving back to our community.</h5>
-                    <a href="" class="btn btn-primary font-weight-bold py-2 px-4 mt-2">Learn More</a>
-                </div>
+                
             </div>
+            <a class="carousel-control-prev" href="#blog-carousel" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </a>
         </div>
     </div>
-    <!-- About End -->
+    <!-- Carousel End -->
+
 
 
     <!-- Footer Start -->
@@ -174,3 +147,4 @@
 </body>
 
 </html>
+

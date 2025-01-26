@@ -39,13 +39,13 @@
             </button>
             <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                 <div class="navbar-nav ml-auto p-4">
-                    <a href="index.html" class="nav-item nav-link active">Home</a>
-                    <a href="about.html" class="nav-item nav-link">About</a>
-                    <a href="service.html" class="nav-item nav-link">Service</a>
-                    <a href="menu.html" class="nav-item nav-link">Menu</a>
-                    <a href="reservation.html" class="nav-item nav-link">Reservation</a>
-                    <a href="teammembers.html" class="nav-item nav-link">Team Members</a>                   
-                    <a href="contact.html" class="nav-item nav-link">Contact</a>
+                    <a href="index.php" class="nav-item nav-link active">Home</a>
+                    <a href="about.php" class="nav-item nav-link">About</a>
+                    <a href="service.php" class="nav-item nav-link">Service</a>
+                    <a href="menu.php" class="nav-item nav-link">Menu</a>
+                    <a href="reservation.php" class="nav-item nav-link">Reservation</a>
+                    <a href="teammembers.php" class="nav-item nav-link">Team Members</a>                   
+                    <a href="contact.php" class="nav-item nav-link">Contact</a>
                 </div>
             </div>
         </nav>
@@ -300,7 +300,7 @@
                         <div class="text-center p-5" style="background: rgba(51, 33, 29, .8);">
                             <h1 class="text-white mb-4 mt-5">Book Your Table</h1>
 
-                            <form class="mb-5" action="test.php" method="POST" >
+                            <form class="mb-5" action="reservation.DB.php" method="POST" >
                                 <div class="form-group">
                                     <input type="text" class="form-control bg-transparent border-primary p-4" placeholder="Name" id="name" name="name"
                                         required="required" />

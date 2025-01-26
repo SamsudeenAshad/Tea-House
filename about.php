@@ -38,13 +38,13 @@
             </button>
             <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                 <div class="navbar-nav ml-auto p-4">
-                    <a href="index.html" class="nav-item nav-link active">Home</a>
-                    <a href="about.html" class="nav-item nav-link">About</a>
-                    <a href="service.html" class="nav-item nav-link">Service</a>
-                    <a href="menu.html" class="nav-item nav-link">Menu</a>
-                    <a href="reservation.html" class="nav-item nav-link">Reservation</a>
-                    <a href="teammembers.html" class="nav-item nav-link">Team Members</a>                   
-                    <a href="contact.html" class="nav-item nav-link">Contact</a>
+                    <a href="index.php" class="nav-item nav-link active">Home</a>
+                    <a href="about.php" class="nav-item nav-link">About</a>
+                    <a href="service.php" class="nav-item nav-link">Service</a>
+                    <a href="menu.php" class="nav-item nav-link">Menu</a>
+                    <a href="reservation.php" class="nav-item nav-link">Reservation</a>
+                    <a href="teammembers.php" class="nav-item nav-link">Team Members</a>                   
+                    <a href="contact.php" class="nav-item nav-link">Contact</a>
                 </div>
             </div>
         </nav>
@@ -55,79 +55,51 @@
     <!-- Page Header Start -->
     <div class="container-fluid page-header mb-5 position-relative overlay-bottom">
         <div class="d-flex flex-column align-items-center justify-content-center pt-0 pt-lg-5" style="min-height: 400px">
-            <h1 class="display-4 mb-3 mt-0 mt-lg-5 text-white text-uppercase">Reservation</h1>
+            <h1 class="display-4 mb-3 mt-0 mt-lg-5 text-white text-uppercase">About Us</h1>
             <div class="d-inline-flex mb-lg-5">
                 <p class="m-0 text-white"><a class="text-white" href="">Home</a></p>
                 <p class="m-0 text-white px-2">/</p>
-                <p class="m-0 text-white">Reservation</p>
+                <p class="m-0 text-white">About Us</p>
             </div>
         </div>
     </div>
     <!-- Page Header End -->
 
 
-    <!-- Reservation Start -->
-    <div class="container-fluid my-5">
+    <!-- About Start -->
+    <div class="container-fluid py-5">
         <div class="container">
-            <div class="reservation position-relative overlay-top overlay-bottom">
-                <div class="row align-items-center">
-                    <div class="col-lg-6 my-5 my-lg-0">
-                        <div class="p-5">
-                            <div class="mb-4">
-                                <h1 class="display-3 text-primary">30% OFF</h1>
-                                <h1 class="text-white">For Online Reservation</h1>
-                            </div>
-                            <p class="text-white">Reserve your table online and enjoy an exclusive 30% discount on your total bill! Experience the perfect blend of convenience and savings at [Your Café Name].</p>
-                            <ul class="list-inline text-white m-0">
-                                <li class="py-2"><i class="fa fa-check text-primary mr-3"></i>Enjoy premium coffee and delicious treats at discounted rates.</li>
-                                <li class="py-2"><i class="fa fa-check text-primary mr-3"></i>Hassle-free table booking with just a few clicks.</li>
-                                <li class="py-2"><i class="fa fa-check text-primary mr-3"></i>Your reserved spot ensures a seamless and delightful café experience.</li>
-                            </ul>
-                        </div>
+            <div class="section-title">
+                <h4 class="text-primary text-uppercase" style="letter-spacing: 5px;">About Us</h4>
+                <h1 class="display-4">Serving Since 2025</h1>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 py-0 py-lg-5">
+                    <h1 class="mb-3">Our Story</h1>
+                    <h5 class="mb-3"> At Thilini Cafe House, every cup of coffee tells a story. From humble beginnings, we envisioned a place where rich, aromatic brews and warm smiles come together to create unforgettable moments.</h5>
+                    <p> Nestled in the heart of the community, we pride ourselves on offering the perfect blend of tradition and creativity. Each sip is crafted with passion, using the finest beans sourced responsibly from around the world.
+                        <br><br>
+                        Our journey is fueled by a love for coffee and a commitment to bringing people together. Whether it’s a quiet corner for reflection or lively conversations with friends,  is where stories are brewed, one cup at a time.</p>
+                    <a href="" class="btn btn-secondary font-weight-bold py-2 px-4 mt-2">Learn More</a>
+                </div>
+                <div class="col-lg-4 py-5 py-lg-0" style="min-height: 500px;">
+                    <div class="position-relative h-100">
+                        <img class="position-absolute w-100 h-100" src="img/about.png" style="object-fit: cover;">
                     </div>
-                    <div class="col-lg-6">
-                        <div class="text-center p-5" style="background: rgba(51, 33, 29, .8);">
-                            <h1 class="text-white mb-4 mt-5">Book Your Table</h1>
-
-                            <form class="mb-5" action="reservation.php" method="post">
-                                <div class="form-group">
-                                    <input type="text" class="form-control bg-transparent border-primary p-4" placeholder="Name" id="name" name="name" required="required" />
-                                </div>
-                                <div class="form-group">
-                                    <input type="email" class="form-control bg-transparent border-primary p-4" placeholder="Email" id="email" name="email" required="required" />
-                                </div>
-                                <div class="form-group">
-                                    <div class="date" id="date" data-target-input="nearest">
-                                        <input type="text" class="form-control bg-transparent border-primary p-4 datetimepicker-input" placeholder="Date" id="reservation_date" name="reservation_date" data-target="#date" data-toggle="datetimepicker" required="required"/>
-                                    </div>
-                                </div>
-                                <div class="form-group">
-                                    <div class="time" id="time" data-target-input="nearest">
-                                        <input type="text" class="form-control bg-transparent border-primary p-4 datetimepicker-input" placeholder="Time" id="reservation_time" name="reservation_time" data-target="#time" data-toggle="datetimepicker" required="required"/>
-                                    </div>
-                                </div>
-                                <div class="form-group">
-                                    <select class="custom-select bg-transparent border-primary px-4" style="height: 49px;" name="person" required="required">
-                                        <option value="">Person</option> <--- Important: Empty value for initial state
-                                        <option value="1">1 Person</option>
-                                        <option value="2">2 Person</option>
-                                        <option value="3">3 Person</option>
-                                        <option value="4">4 Person</option> <--- Corrected typo
-                                    </select>
-                                </div>
-                            
-                                <div>
-                                    <button class="btn btn-primary btn-block font-weight-bold py-3" type="submit">Book Now</button>
-                                </div>
-                            </form>
-
-                        </div>
-                    </div>
+                </div>
+                <div class="col-lg-4 py-0 py-lg-5">
+                    <h1 class="mb-3">Our Vision</h1>
+                    <p>To create a space where every cup of coffee inspires connection, joy, and creativity. At [Your Café Name], we envision a community brought together by a shared love for exceptional brews, warm hospitality, and meaningful moments.<p></p>                    
+                    
+                    <h5 class="mb-3"><i class="fa fa-check text-primary mr-3"></i>Crafting exceptional coffee experiences with passion and care.</h5>
+                    <h5 class="mb-3"><i class="fa fa-check text-primary mr-3"></i>Fostering a warm and welcoming environment for everyone.</h5>
+                    <h5 class="mb-3"><i class="fa fa-check text-primary mr-3"></i>Supporting sustainability by sourcing responsibly and giving back to our community.</h5>
+                    <a href="" class="btn btn-primary font-weight-bold py-2 px-4 mt-2">Learn More</a>
                 </div>
             </div>
         </div>
     </div>
-    <!-- Reservation End -->
+    <!-- About End -->
 
 
     <!-- Footer Start -->
