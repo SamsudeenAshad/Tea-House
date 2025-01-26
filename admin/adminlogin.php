@@ -49,27 +49,128 @@
     </div>
     <!-- Navbar End -->
 
-    <!-- Carousel Start -->
-    <div class="container-fluid p-0 mb-5">
-        <div id="blog-carousel" class="carousel slide overlay-bottom" data-ride="carousel">
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img class="w-100" src="img/carousel-1.jpg" alt="Image">
-                    <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
-                        <h2 class="text-primary font-weight-medium m-0">We Contact You Soon </h2>
-                        <h1 class="display-1 text-white m-0">Reservation Sucessful</h1>
-                        <h2 class="text-white m-0">* Thank for Reservation *</h2>
+  
+
+
+ 
+
+
+   
+
+
+    <!-- Offer Start -->
+    <div class="offer container-fluid my-5 py-5 text-center position-relative overlay-top overlay-bottom">
+        <div class="container py-5">
+            <h1 class="display-3 text-primary mt-3">50% OFF</h1>
+            <h1 class="text-white mb-3">Sunday Special Offer</h1>
+            <h4 class="text-white font-weight-normal mb-4 pb-3">Only for Sunday from 1st Jan to 28th Feb 2025</h4>
+           
+           
+            <form class="form-inline justify-content-center mb-4">
+               
+                    
+                    <div >
+                    <label  class="text-white font-weight-normal mb-4 pb-3" placeholder="Name" id="name" name="name">Enter User Name:</label>
+                    
+                    <input type="text" class="form-control p-4" placeholder="Your Email" style="height: 60px;">
                     </div>
-                </div>
-                
-            </div>
-            <a class="carousel-control-prev" href="#blog-carousel" data-slide="prev">
-                <span class="carousel-control-prev-icon"></span>
-            </a>
+
+                    <div >
+                    <label  class="text-white font-weight-normal mb-4 pb-3" placeholder="Name" id="name" name="name">Enter  Password:</label>
+                    
+                     <input type="text" class="form-control p-4" placeholder="Your Email" style="height: 60px;">
+                     </div>
+                        
+                    </div>
+                    <button class="btn btn-primary font-weight-bold px-4" type="submit">Sign Up</button>
+                    <button class="btn btn-primary font-weight-bold px-4" type="submit">Sign Up</button>
+            </form>
+
+
+
         </div>
     </div>
-    <!-- Carousel End -->
+    <!-- Offer End -->
 
+
+    <!-- Menu Start -->
+    <div class="container-fluid pt-5">
+        <div class="container">
+            <div class="section-title">
+                <h4 class="text-primary text-uppercase" style="letter-spacing: 5px;">Menu & Pricing</h4>
+                <h1 class="display-4">Competitive Pricing</h1>
+            </div>
+            <div class="row">
+                <div class="col-lg-6">
+                    <h1 class="mb-5">Hot Coffee</h1>
+                    <div class="row align-items-center mb-5">
+                        <div class="col-4 col-sm-3">
+                            <img class="w-100 rounded-circle mb-3 mb-sm-0" src="img/menu-1.jpg" alt="">
+                            <h5 class="menu-price">Rs.150</h5>
+                        </div>
+                        <div class="col-8 col-sm-9">
+                            <h4>Morning Brew - Black Coffee</h4>
+                            <p class="m-0">Rich and bold, our black coffee is the perfect pick-me-up to start your day</p>
+                        </div>
+                    </div>
+                    <div class="row align-items-center mb-5">
+                        <div class="col-4 col-sm-3">
+                            <img class="w-100 rounded-circle mb-3 mb-sm-0" src="img/menu-2.jpg" alt="">
+                            <h5 class="menu-price">Rs.250</h5>
+                        </div>
+                        <div class="col-8 col-sm-9">
+                            <h4>Mocha Bliss - Chocolete Coffee</h4>
+                            <p class="m-0">A delightful blend of premium coffee and smooth chocolate for a sweet indulgence.</p>
+                        </div>
+                    </div>
+                    <div class="row align-items-center mb-5">
+                        <div class="col-4 col-sm-3">
+                            <img class="w-100 rounded-circle mb-3 mb-sm-0" src="img/menu-3.jpg" alt="">
+                            <h5 class="menu-price">Rs.180</h5>
+                        </div>
+                        <div class="col-8 col-sm-9">
+                            <h4>Creamy Comfort - Coffee With Milk</h4>
+                            <p class="m-0">Cool, creamy, and refreshing – the ultimate iced coffee experience.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <h1 class="mb-5">Cold Coffee</h1>
+                    <div class="row align-items-center mb-5">
+                        <div class="col-4 col-sm-3">
+                            <img class="w-100 rounded-circle mb-3 mb-sm-0" src="img/menu-1.jpg" alt="">
+                            <h5 class="menu-price">Rs.350</h5>
+                        </div>
+                        <div class="col-8 col-sm-9">
+                            <h4>Iced Bold - Black Coffee</h4>
+                            <p class="m-0">Chilled and refreshing, our cold black coffee delivers a crisp and bold flavor.</p>
+                        </div>
+                    </div>
+                    <div class="row align-items-center mb-5">
+                        <div class="col-4 col-sm-3">
+                            <img class="w-100 rounded-circle mb-3 mb-sm-0" src="img/menu-2.jpg" alt="">
+                            <h5 class="menu-price">Rs.270</h5>
+                        </div>
+                        <div class="col-8 col-sm-9">
+                            <h4>Choco Chill - Chocolete Coffee</h4>
+                            <p class="m-0">A decadent cold brew with a chocolatey twist, perfect for warm days.</p>
+                        </div>
+                    </div>
+                    <div class="row align-items-center mb-5">
+                        <div class="col-4 col-sm-3">
+                            <img class="w-100 rounded-circle mb-3 mb-sm-0" src="img/menu-3.jpg" alt="">
+                            <h5 class="menu-price">Rs.200</h5>
+                        </div>
+                        <div class="col-8 col-sm-9">
+                            <h4>Milky Frost - Coffee With Milk</h4>
+                            <p class="m-0">Cool, creamy, and refreshing – the ultimate iced coffee experience.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Menu End -->
 
 
     <!-- Footer Start -->

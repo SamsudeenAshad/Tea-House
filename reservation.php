@@ -77,7 +77,7 @@
                                 <h1 class="display-3 text-primary">30% OFF</h1>
                                 <h1 class="text-white">For Online Reservation</h1>
                             </div>
-                            <p class="text-white">Reserve your table online and enjoy an exclusive 30% discount on your total bill! Experience the perfect blend of convenience and savings at [Your Café Name].</p>
+                            <p class="text-white">Reserve your table online and enjoy an exclusive 30% discount on your total bill! Experience the perfect blend of convenience and savings at Thilini Cafe House.</p>
                             <ul class="list-inline text-white m-0">
                                 <li class="py-2"><i class="fa fa-check text-primary mr-3"></i>Enjoy premium coffee and delicious treats at discounted rates.</li>
                                 <li class="py-2"><i class="fa fa-check text-primary mr-3"></i>Hassle-free table booking with just a few clicks.</li>
