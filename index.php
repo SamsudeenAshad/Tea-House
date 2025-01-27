@@ -41,6 +41,7 @@
                     <a href="service.php" class="nav-item nav-link">Service</a>
                     <a href="menu.php" class="nav-item nav-link">Menu</a>
                     <a href="reservation.php" class="nav-item nav-link">Reservation</a>
+                    <a href="reservation.php" class="nav-item nav-link">Order Now</a>
                     <a href="teammembers.php" class="nav-item nav-link">Team Members</a>                   
                     <a href="contact.php" class="nav-item nav-link">Contact</a>
                 </div>
@@ -95,7 +96,7 @@
                     <p> Nestled in the heart of the community, we pride ourselves on offering the perfect blend of tradition and creativity. Each sip is crafted with passion, using the finest beans sourced responsibly from around the world.
                         <br><br>
                         Our journey is fueled by a love for coffee and a commitment to bringing people together. Whether it’s a quiet corner for reflection or lively conversations with friends,  is where stories are brewed, one cup at a time.</p>
-                    <a href="" class="btn btn-secondary font-weight-bold py-2 px-4 mt-2">Learn More</a>
+                    <a href="about.php" class="btn btn-secondary font-weight-bold py-2 px-4 mt-2">Learn More</a>
                 </div>
                 <div class="col-lg-4 py-5 py-lg-0" style="min-height: 500px;">
                     <div class="position-relative h-100">
@@ -109,7 +110,7 @@
                     <h5 class="mb-3"><i class="fa fa-check text-primary mr-3"></i>Crafting exceptional coffee experiences with passion and care.</h5>
                     <h5 class="mb-3"><i class="fa fa-check text-primary mr-3"></i>Fostering a warm and welcoming environment for everyone.</h5>
                     <h5 class="mb-3"><i class="fa fa-check text-primary mr-3"></i>Supporting sustainability by sourcing responsibly and giving back to our community.</h5>
-                    <a href="" class="btn btn-primary font-weight-bold py-2 px-4 mt-2">Learn More</a>
+                    <a href="about.php" class="btn btn-primary font-weight-bold py-2 px-4 mt-2">Learn More</a>
                 </div>
             </div>
         </div>
@@ -268,6 +269,8 @@
                         </div>
                     </div>
                 </div>
+                <a href="menu.php" class="btn btn-primary btn-block font-weight-bold py-3">See more...</a>
+
             </div>
         </div>
     </div>

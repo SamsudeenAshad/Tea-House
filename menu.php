@@ -84,6 +84,8 @@
                         <div class="col-8 col-sm-9">
                             <h4>Morning Brew - Black Coffee</h4>
                             <p class="m-0">Rich and bold, our black coffee is the perfect pick-me-up to start your day</p>
+                            <a href="order.php" class="btn btn-primary font-weight-bold py-2 px-4 mt-2">Order Now</a>
+
                         </div>
                     </div>
                     <div class="row align-items-center mb-5">
@@ -94,6 +96,8 @@
                         <div class="col-8 col-sm-9">
                             <h4>Mocha Bliss - Chocolete Coffee</h4>
                             <p class="m-0">A delightful blend of premium coffee and smooth chocolate for a sweet indulgence.</p>
+                            <a href="order.php" class="btn btn-primary font-weight-bold py-2 px-4 mt-2">Order Now</a>
+
                         </div>
                     </div>
                     <div class="row align-items-center mb-5">
@@ -104,6 +108,8 @@
                         <div class="col-8 col-sm-9">
                             <h4>Creamy Comfort - Coffee With Milk</h4>
                             <p class="m-0">Cool, creamy, and refreshing – the ultimate iced coffee experience.</p>
+                            <a href="order.php" class="btn btn-primary font-weight-bold py-2 px-4 mt-2">Order Now</a>
+
                         </div>
                     </div>
                 </div>
@@ -117,6 +123,8 @@
                         <div class="col-8 col-sm-9">
                             <h4>Iced Bold - Black Coffee</h4>
                             <p class="m-0">Chilled and refreshing, our cold black coffee delivers a crisp and bold flavor.</p>
+                            <a href="order.php" class="btn btn-primary font-weight-bold py-2 px-4 mt-2">Order Now</a>
+
                         </div>
                     </div>
                     <div class="row align-items-center mb-5">
@@ -127,6 +135,8 @@
                         <div class="col-8 col-sm-9">
                             <h4>Choco Chill - Chocolete Coffee</h4>
                             <p class="m-0">A decadent cold brew with a chocolatey twist, perfect for warm days.</p>
+                            <a href="order.php" class="btn btn-primary font-weight-bold py-2 px-4 mt-2">Order Now</a>
+
                         </div>
                     </div>
                     <div class="row align-items-center mb-5">
@@ -137,6 +147,8 @@
                         <div class="col-8 col-sm-9">
                             <h4>Milky Frost - Coffee With Milk</h4>
                             <p class="m-0">Cool, creamy, and refreshing – the ultimate iced coffee experience.</p>
+                            <a href="order.php" class="btn btn-primary font-weight-bold py-2 px-4 mt-2">Order Now</a>
+
                         </div>
                     </div>
                 </div>

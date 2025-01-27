@@ -55,7 +55,7 @@ $reservationResult = mysqli_query($conn, $reservationQuery);
 <div class="offer container-fluid my-5 py-5 text-center position-relative overlay-top overlay-bottom">
 <div class="container py-5">
     <h2 class="display-3 text-primary mt-3">Welcome, <?php echo $_SESSION['admin']; ?>!</h2>
-    <a href="logout.php">Logout</a>
+    <a href="adminlogin.php">Logout</a>
 
     <h3 class="text-white mb-3">Reservation Details:</h3>
     <table class="text-white font-weight-normal mb-4 pb-3" border="2">

@@ -30,9 +30,9 @@
     <!-- main Start -->
     <div class="offer container-fluid my-5 py-5 text-center position-relative overlay-top overlay-bottom">
         <div class="container py-5">
-            <h1 class="display-3 text-primary mt-3">50% OFF</h1>
-            <h1 class="text-white mb-3">Sunday Special Offer</h1>
-            <h4 class="text-white font-weight-normal mb-4 pb-3">Only for Sunday from 1st Jan to 28th Feb 2025</h4>
+            <h1 class="display-3 text-primary mt-3">Well Come</h1>
+            <h1 class="text-white mb-3">Admin Login</h1>
+            <h4 class="text-white font-weight-normal mb-4 pb-3">Enter your Username and Password</h4>
            
            
             <form action="adminauthorization.php" method="POST" class="form-inline justify-content-center mb-4">
