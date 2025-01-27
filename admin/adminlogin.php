@@ -25,40 +25,9 @@
 </head>
 
 <body>
-    <!-- Navbar Start -->
-    <div class="container-fluid p-0 nav-bar">
-        <nav class="navbar navbar-expand-lg bg-none navbar-dark py-3">
-            <a href="index.html" class="navbar-brand px-lg-4 m-0">
-                <h1 class="m-0 display-4 text-uppercase text-white">Thilini Cafe House</h1>
-            </a>
-            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
-                <div class="navbar-nav ml-auto p-4">
-                    <a href="index.php" class="nav-item nav-link active">Home</a>
-                    <a href="about.php" class="nav-item nav-link">About</a>
-                    <a href="service.php" class="nav-item nav-link">Service</a>
-                    <a href="menu.php" class="nav-item nav-link">Menu</a>
-                    <a href="reservation.php" class="nav-item nav-link">Reservation</a>
-                    <a href="teammembers.php" class="nav-item nav-link">Team Members</a>                   
-                    <a href="contact.php" class="nav-item nav-link">Contact</a>
-                </div>
-            </div>
-        </nav>
-    </div>
-    <!-- Navbar End -->
-
-  
-
-
- 
-
-
    
 
-
-    <!-- Offer Start -->
+    <!-- main Start -->
     <div class="offer container-fluid my-5 py-5 text-center position-relative overlay-top overlay-bottom">
         <div class="container py-5">
             <h1 class="display-3 text-primary mt-3">50% OFF</h1>
@@ -82,15 +51,15 @@
                      </div>
                         
                     </div>
-                    <button class="btn btn-primary font-weight-bold px-4" type="submit">Sign Up</button>
-                    <button class="btn btn-primary font-weight-bold px-4" type="submit">Sign Up</button>
+                    <button class="btn btn-primary font-weight-bold px-4" type="clear">clear </button>
+                    <button class="btn btn-primary font-weight-bold px-4" type="submit">Log in</button>
             </form>
 
 
 
         </div>
     </div>
-    <!-- Offer End -->
+    <!-- main End -->
 
 
     <!-- Menu Start -->
