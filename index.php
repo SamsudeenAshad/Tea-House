@@ -308,12 +308,12 @@
                                 </div>
                                 <div class="form-group">
                                     <div class="date" id="date" data-target-input="nearest">
-                                        <input type="text" class="form-control bg-transparent border-primary p-4 datetimepicker-input" placeholder="Date" id="date" name="reservation_date" data-target="#date" data-toggle="datetimepicker"/>
+                                        <input type="date" class="form-control bg-transparent border-primary p-4 datetimepicker-input" placeholder="Date" id="date" name="reservation_date" data-target="#date" data-toggle="datetimepicker"/>
                                     </div>
                                 </div>
                                 <div class="form-group">
                                     <div class="time" id="time" data-target-input="nearest">
-                                        <input type="text" class="form-control bg-transparent border-primary p-4 datetimepicker-input" placeholder="Time" id="time" name="reservation_time" data-target="#time" data-toggle="datetimepicker"/>
+                                        <input type="time" class="form-control bg-transparent border-primary p-4 datetimepicker-input" placeholder="Time" id="time" name="reservation_time" data-target="#time" data-toggle="datetimepicker"/>
                                     </div>
                                 </div>
                                 <div class="form-group">
