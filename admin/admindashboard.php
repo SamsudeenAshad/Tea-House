@@ -21,9 +21,18 @@ if (!isset($_SESSION['admin'])) {
     exit();
 }
 
-// Fetch data from the reservations table
+// Fetch Reservations
 $reservationQuery = "SELECT * FROM reservations ORDER BY reservation_date, reservation_time";
 $reservationResult = mysqli_query($conn, $reservationQuery);
+
+// Fetch Orders
+$orderQuery = "SELECT * FROM customer_orders ORDER BY order_date, order_time";
+$orderResult = mysqli_query($conn, $orderQuery);
+
+// Fetch Messages
+$messagesQuery = "SELECT * FROM client_messages ORDER BY created_at DESC";
+$messagesResult = mysqli_query($conn, $messagesQuery);
+
 ?>
 
 <!DOCTYPE html>
@@ -52,12 +61,14 @@ $reservationResult = mysqli_query($conn, $reservationQuery);
 </head>
 
 <body>
+
 <div class="offer container-fluid my-5 py-5 text-center position-relative overlay-top overlay-bottom">
 <div class="container py-5">
     <h2 class="display-3 text-primary mt-3">Welcome, <?php echo $_SESSION['admin']; ?>!</h2>
     <a href="adminlogin.php">Logout</a>
 
-    <h3 class="text-white mb-3">Reservation Details:</h3>
+    <!-- Reservation Details -->
+    <h3 class="text-white mb-3 mt-4">Reservation Details</h3>
     <table class="text-white font-weight-normal mb-4 pb-3" border="2">
         <tr>
             <th>ID</th>
@@ -80,8 +91,69 @@ $reservationResult = mysqli_query($conn, $reservationQuery);
         </tr>
         <?php } ?>
     </table>
-    </div>
-    </div>
+
+    <!-- Order Details -->
+    <h3 class="text-white mb-3 mt-4">Customer Orders:</h3>
+    <table class="text-white font-weight-normal mb-4 pb-3" border="2">
+        <tr>
+            <th>ID</th>
+            <th>Customer Name</th>
+            <th>Email</th>
+            <th>Date</th>
+            <th>Time</th>
+            <th>Coffee Type</th>
+            <th>Quantity</th>
+            <th>Payment Type</th>
+            <th>Order Status</th>
+        </tr>
+        <?php while ($row = mysqli_fetch_assoc($orderResult)) { ?>
+        <tr>
+            <td><?php echo $row['id']; ?></td>
+            <td><?php echo $row['name']; ?></td>
+            <td><?php echo $row['email']; ?></td>
+            <td><?php echo $row['order_date']; ?></td>
+            <td><?php echo $row['order_time']; ?></td>
+            <td><?php echo $row['coffee_type']; ?></td>
+            <td><?php echo $row['quantity']; ?></td>
+            <td><?php echo $row['payment_type']; ?></td>
+            <td>
+                <form method="POST" action="update_order.php">
+                    <input type="hidden" name="order_id" value="<?php echo $row['id']; ?>">
+                    <input type="checkbox" name="order_complete" value="1" 
+                        <?php echo ($row['order_status'] == 1) ? 'checked' : ''; ?> 
+                        onchange="this.form.submit();">
+                </form>
+            </td>
+        </tr>
+        <?php } ?>
+    </table>
+
+    <!-- Messages -->
+    <h3 class="text-white mb-3 mt-4">Customer Messages</h3>
+    <table class="text-white font-weight-normal mb-4 pb-3" border="2">
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Subject</th>
+            <th>Message</th>
+            <th>Date</th>
+        </tr>
+        <?php while ($row = mysqli_fetch_assoc($messagesResult)) { ?>
+        <tr>
+            <td><?php echo $row['id']; ?></td>
+            <td><?php echo $row['name']; ?></td>
+            <td><?php echo $row['email']; ?></td>
+            <td><?php echo $row['subject']; ?></td>
+            <td><?php echo $row['message']; ?></td>
+            <td><?php echo $row['created_at']; ?></td>
+        </tr>
+        <?php } ?>
+    </table>
+</div>
+</div>
+
+    
 </body>
 </html>
 

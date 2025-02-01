@@ -100,7 +100,8 @@
                 <div class="col-md-6 pb-5">
                     <div class="contact-form">
                         <div id="success"></div>
-                        <form name="sentMessage" id="contactForm" novalidate="novalidate">
+
+                        <form name="sentMessage" method="post" action="massage.DB.php"  id="contactForm" novalidate="novalidate">
                             <div class="control-group">
                                 <input type="text" class="form-control bg-transparent p-4" id="name" placeholder="Your Name"
                                     required="required" data-validation-required-message="Please enter your name" />

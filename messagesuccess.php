@@ -4,9 +4,7 @@
 <head>
     <meta charset="utf-8">
     <title>KOPPEE - Coffee Shop HTML Template</title>
-    <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <meta content="Free Website Template" name="keywords">
-    <meta content="Free Website Template" name="description">
+    
 
     <!-- Favicon -->
     <link href="img/favicon.ico" rel="icon">
@@ -43,8 +41,8 @@
                     <a href="service.php" class="nav-item nav-link">Service</a>
                     <a href="menu.php" class="nav-item nav-link">Menu</a>
                     <a href="reservation.php" class="nav-item nav-link">Reservation</a>
-                    <a href="order.php" class="nav-item nav-link">Order Now</a>
-                    <a href="teammembers.php" class="nav-item nav-link active">Team Members</a>                   
+                    <a href="order.php" class="nav-item nav-link active">Order Now</a>
+                    <a href="teammembers.php" class="nav-item nav-link">Team Members</a>                   
                     <a href="contact.php" class="nav-item nav-link">Contact</a>
                 </div>
             </div>
@@ -52,99 +50,27 @@
     </div>
     <!-- Navbar End -->
 
-
-    <!-- Page Header Start -->
-    <div class="container-fluid page-header mb-5 position-relative overlay-bottom">
-        <div class="d-flex flex-column align-items-center justify-content-center pt-0 pt-lg-5" style="min-height: 400px">
-            <h1 class="display-4 mb-3 mt-0 mt-lg-5 text-white text-uppercase">Team Members</h1>
-            <div class="d-inline-flex mb-lg-5">
-                <p class="m-0 text-white"><a class="text-white" href="">Home</a></p>
-                <p class="m-0 text-white px-2">/</p>
-                <p class="m-0 text-white">Team Members</p>
+    <!-- Carousel Start -->
+    <div class="container-fluid p-0 mb-5">
+        <div id="blog-carousel" class="carousel slide overlay-bottom" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="w-100" src="img/carousel-1.jpg" alt="Image">
+                    <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                        <h2 class="text-primary font-weight-medium m-0">Thank You for Your Comment </h2>
+                        <h1 class="display-1 text-white m-0">Comment reached Sucessful</h1>
+                        <h2 class="text-white m-0">* Thank for your Comment *</h2>
+                    </div>
+                </div>
+                
             </div>
+            <a class="carousel-control-prev" href="#blog-carousel" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </a>
         </div>
     </div>
-    <!-- Page Header End -->
-     
+    <!-- Carousel End -->
 
-     <!-- Testimonial Start -->
-     <div class="container-fluid py-5">
-        <div class="container">
-            <div class="section-title">
-                <h4 class="text-primary text-uppercase" style="letter-spacing: 5px;">Team Members</h4>
-                <h1 class="display-4">Who we are</h1>
-            </div>
-            
-             <div class="testimonial-item">
-                    <div class="d-flex align-items-center mb-3">
-                        <img class="img-fluid" src="img/3ATMJayalath.jpg" style="width: 150px; height: auto;" alt="">
-                        <div class="ml-3">
-                            <h4>ATM Jayalath(30089)                            </h4>
-                            <i>Bsc(Hons) Software Engineering</i>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="testimonial-item">
-                    <div class="d-flex align-items-center mb-3">
-                        <img class="img-fluid" src="img/7KGkTharuka.jpg" style="width: 150px; height: auto;" alt="">
-                        <div class="ml-3">
-                            <h4>K.G.K.Tharuka (29909)                            </h4>
-                            <i>BSc (Hons) Software Engineering</i>
-                        </div>
-                    </div>
-                </div>
-                <div class="testimonial-item">
-                    <div class="d-flex align-items-center mb-3">
-                        <img class="img-fluid" src="img/2Wgcdilshara.jpg" style="width: 150px; height: auto;" alt="">
-                        <div class="ml-3">
-                            <h4>Wgcdilshara (29947)                            </h4>
-                            <i>BS(c) Hons. Computer Security</i>
-                            
-                        </div>
-                    </div>
-                </div>
-                <div class="testimonial-item">
-                    <div class="d-flex align-items-center mb-3">
-                        <img class="img-fluid" src="img/1SDVSenarath.jpg"  style="width: 150px; height: auto;" alt="">
-                        <div class="ml-3">
-                            <h4>SDVSenarath (30649)                            </h4>
-                            <i>BSc (Hons) Software Engineering</i>
-                        </div>
-                    </div>
-                </div>
-                <div class="testimonial-item">
-                    <div class="d-flex align-items-center mb-3">
-                        <img class="img-fluid" src="img/4UsThilakawardana.jpg" style="width: 150px; height: auto;" alt="">
-                        <div class="ml-3">
-                            <h4>Us Thilakawardana(34326)</h4>
-                            <i>BSc(Hons) software Engineering</i>
-                        </div>
-                    </div>
-                </div>
-                <div class="testimonial-item">
-                    <div class="d-flex align-items-center mb-3">
-                        <img class="img-fluid" src="img/5WIMperera.jpg" style="width: 150px; height: auto;" alt="">
-                        <div class="ml-3">
-                            <h4>WIM Perera (30817)                            </h4>
-                            <i>BSc (Honours) Technology Management</i>
-                        </div>
-                    </div>
-                </div>
-                <div class="testimonial-item">
-                    <div class="d-flex align-items-center mb-3">
-                        <img class="img-fluid" src="img/6HMNprabodhana.jpg" style="width: 150px; height: auto;" alt="">
-                        <div class="ml-3">
-                            <h4>HMN Prabodhana(30690)                            </h4>
-                            <i>Bsc(Hons) Software Engineering</i>
-                        </div>
-                    </div>
-                </div>
-                
-                
-        </div>
-    </div>
-    <!-- Testimonial End -->
 
 
     <!-- Footer Start -->
@@ -220,3 +146,4 @@
 </body>
 
 </html>
+

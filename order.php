@@ -28,9 +28,40 @@
 
 <body>
 
+<!-- Navbar Start -->
+<div class="container-fluid p-0 nav-bar">
+        <nav class="navbar navbar-expand-lg bg-none navbar-dark py-3">
+            <a href="index.html" class="navbar-brand px-lg-4 m-0">
+                <h1 class="m-0 display-4 text-uppercase text-white">Thilini Cafe House</h1>
+            </a>
+            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+                <div class="navbar-nav ml-auto p-4">
+                    <a href="index.php" class="nav-item nav-link ">Home</a>
+                    <a href="about.php" class="nav-item nav-link">About</a>
+                    <a href="service.php" class="nav-item nav-link">Service</a>
+                    <a href="menu.php" class="nav-item nav-link">Menu</a>
+                    <a href="reservation.php" class="nav-item nav-link">Reservation</a>
+                    <a href="order.php" class="nav-item nav-link active" >Order Now</a>
+                    <a href="teammembers.php" class="nav-item nav-link">Team Members</a>                   
+                    <a href="contact.php" class="nav-item nav-link">Contact</a>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!-- Navbar End -->
+
     <!-- Page Header Start -->
     <div class="container-fluid page-header mb-5 position-relative overlay-bottom">
-        <div class="d-flex flex-column align-items-center justify-content-center pt-0 pt-lg-5" style="min-height: 350px">
+        <div class="d-flex flex-column align-items-center justify-content-center pt-0 pt-lg-5" style="min-height: 400px">
+            <h1 class="display-4 mb-3 mt-0 mt-lg-5 text-white text-uppercase">Order Now</h1>
+            <div class="d-inline-flex mb-lg-5">
+                <p class="m-0 text-white"><a class="text-white" href="">Home</a></p>
+                <p class="m-0 text-white px-2">/</p>
+                <p class="m-0 text-white">Reservation</p>
+            </div>
         </div>
     </div>
     <!-- Page Header End -->
@@ -90,7 +121,7 @@
                                     </select>
                                 </div>
                                 <div class="form-group">
-                                    <select class="custom-select bg-transparent border-primary px-4" style="height: 49px;" name="person" requiredv >
+                                    <select class="custom-select bg-transparent border-primary px-4" style="height: 49px;" name="quantity" requiredv >
                                         <option value="" disabled selected>Number of Coffee</option>
                                         <option value="1">1 Coffee</option>
                                         <option value="2">2 Coffee</option>
@@ -100,11 +131,11 @@
                                     </select>
                                 </div>
                                 <div class="form-group">
-                                    <select class="custom-select bg-transparent border-primary px-4" style="height: 49px;" name="person" requiredv >
+                                    <select class="custom-select bg-transparent border-primary px-4" style="height: 49px;" name="payment_type" requiredv >
                                         <option value="" disabled selected>Payment Type</option>
-                                        <option value="1">Cash</option>
-                                        <option value="2">Online Transfer</option>
-                                        <option value="3">Credit Card | Debit Card</option>
+                                        <option value="Cash">Cash</option>
+                                        <option value="Online">Online Transfer</option>
+                                        <option value="Card">Credit Card | Debit Card</option>
                                     </select>
                                 </div
                                 
