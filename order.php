@@ -59,7 +59,7 @@
                         <div class="text-center p-5" style="background: rgba(51, 33, 29, .8);">
                             <h1 class="text-white mb-4 mt-5">Order Your Coffee</h1>
 
-                            <form class="mb-5" action="reservation.DB.php" method="POST" >
+                            <form class="mb-5" action="order.DB.php" method="POST" >
                                 <div class="form-group">
                                     <input type="text" class="form-control bg-transparent border-primary p-4" placeholder="Name" id="name" name="name"
                                         required="required" />
@@ -70,23 +70,23 @@
                                 </div>
                                 <div class="form-group">
                                     <div class="date" id="date" data-target-input="nearest">
-                                        <input type="text" class="form-control bg-transparent border-primary p-4 datetimepicker-input" placeholder="Date" id="date" name="reservation_date" data-target="#date" data-toggle="datetimepicker"/>
+                                        <input type="text" class="form-control bg-transparent border-primary p-4 datetimepicker-input" placeholder="Date" id="date" name="order_date" data-target="#date" data-toggle="datetimepicker"/>
                                     </div>
                                 </div>
                                 <div class="form-group">
                                     <div class="time" id="time" data-target-input="nearest">
-                                        <input type="text" class="form-control bg-transparent border-primary p-4 datetimepicker-input" placeholder="Time" id="time" name="reservation_time" data-target="#time" data-toggle="datetimepicker"/>
+                                        <input type="text" class="form-control bg-transparent border-primary p-4 datetimepicker-input" placeholder="Time" id="time" name="order_time" data-target="#time" data-toggle="datetimepicker"/>
                                     </div>
                                 </div>
                                 <div class="form-group">
-                                    <select class="custom-select bg-transparent border-primary px-4" style="height: 49px;" name="person" requiredv >
+                                    <select class="custom-select bg-transparent border-primary px-4" style="height: 49px;" name="coffee_type" requiredv >
                                         <option value="" disabled selected>Coffee Type</option>
-                                        <option value="Morning Brew - Black Coffee">Morning Brew - Black Coffee</option>
-                                        <option value="Mocha Bliss - Chocolete Coffee">Mocha Bliss - Chocolete Coffee</option>
-                                        <option value="Creamy Comfort - Coffee With Milk">Creamy Comfort - Coffee With Milk</option>
-                                        <option value="Iced Bold - Black Coffee">Iced Bold - Black Coffee</option>
-                                        <option value="Creamy Comfort - Coffee With Milk">Choco Chill - Chocolete Coffee</option>
-                                        <option value="Iced Bold - Black Coffee">Milky Frost - Coffee With Milk</option>
+                                        <option value="Morning_Brew_Black_Coffee">Morning Brew - Black Coffee</option>
+                                        <option value="Mocha_Bliss_Chocolete_Coffee">Mocha Bliss - Chocolete Coffee</option>
+                                        <option value="Creamy_Comfort_Coffee_With_Milk">Creamy Comfort - Coffee With Milk</option>
+                                        <option value="Iced_Bold_Black_Coffee">Iced Bold - Black Coffee</option>
+                                        <option value="Creamy_Comfort_Coffee_With_Milk">Choco Chill - Chocolete Coffee</option>
+                                        <option value="Iced_Bold_Black_Coffee">Milky Frost - Coffee With Milk</option>
                                     </select>
                                 </div>
                                 <div class="form-group">
@@ -96,7 +96,7 @@
                                         <option value="2">2 Coffee</option>
                                         <option value="3">3 Coffee</option>
                                         <option value="4">4 Coffee</option>
-                                        <option value="4">4 Coffee</option>
+                                        <option value="5">5 Coffee</option>
                                     </select>
                                 </div>
                                 <div class="form-group">
