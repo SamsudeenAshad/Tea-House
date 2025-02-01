@@ -43,7 +43,7 @@
                     <a href="service.php" class="nav-item nav-link">Service</a>
                     <a href="menu.php" class="nav-item nav-link active">Menu</a>
                     <a href="reservation.php" class="nav-item nav-link">Reservation</a>
-                    <a href="reservation.php" class="nav-item nav-link">Order Now</a>
+                    <a href="order.php" class="nav-item nav-link">Order Now</a>
                     <a href="teammembers.php" class="nav-item nav-link">Team Members</a>                   
                     <a href="contact.php" class="nav-item nav-link">Contact</a>
                 </div>
