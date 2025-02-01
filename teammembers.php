@@ -86,7 +86,7 @@
                 </div>
                 <div class="testimonial-item">
                     <div class="d-flex align-items-center mb-3">
-                        <img class="img-fluid" src="img/testimonial-2.jpg" alt="">
+                        <img class="img-fluid" src="img/7KGkTharuka.jpg" alt="">
                         <div class="ml-3">
                             <h4>K.G.K.Tharuka (29909)</h4>
                             <i>BSc (Hons) Software Engineering</i>
@@ -106,7 +106,7 @@
                 </div>
                 <div class="testimonial-item">
                     <div class="d-flex align-items-center mb-3">
-                        <img class="img-fluid" src="img/4Us Thilakawardana.png" alt="">
+                        <img class="img-fluid" src="img/4UsThilakawardana.jpg" alt="">
                         <div class="ml-3">
                             <h4>Us Thilakawardana (34326)</h4>
                             <i>BSc(Hons) software Engineering</i>
@@ -116,7 +116,7 @@
                 </div>
                 <div class="testimonial-item">
                     <div class="d-flex align-items-center mb-3">
-                        <img class="img-fluid" src="img/5WIM perera.HEIC" alt="">
+                        <img class="img-fluid" src="img/5WIMperera.jpg" alt="">
                         <div class="ml-3">
                             <h4>WIM Perera (30817)                            </h4>
                             <i>BSc (Honours) Technology Management</i>
@@ -126,7 +126,7 @@
                 </div>
                 <div class="testimonial-item">
                     <div class="d-flex align-items-center mb-3">
-                        <img class="img-fluid" src="img/6HMN prabodhana.jpg" alt="">
+                        <img class="img-fluid" src="img/6HMNprabodhana.jpg" alt="">
                         <div class="ml-3">
                             <h4>HMN Prabodhana(30690)                            </h4>
                             <i>Bsc(Hons) Software Engineering</i>
@@ -136,7 +136,7 @@
                 </div>
                 <div class="testimonial-item">
                     <div class="d-flex align-items-center mb-3">
-                        <img class="img-fluid" src="img/3ATM Jayalath.heic" alt="">
+                        <img class="img-fluid" src="img/3ATMJayalath.jpg" alt="">
                         <div class="ml-3">
                             <h4>ATM Jayalath(30089)                            </h4>
                             <i>Bsc(Hons) Software Engineering</i>
@@ -159,7 +159,7 @@
             
                 <div class="testimonial-item">
                     <div class="d-flex align-items-center mb-3">
-                        <img class="img-fluid" src="img/testimonial-1.jpg" alt="">
+                        <img class="img-fluid" src="img/2Wgcdilshara.jpg" alt="">
                         <div class="ml-3">
                             <h4>Wgcdilshara (29947)                            </h4>
                             <i>BS(c) Hons. Computer Security</i>
@@ -168,7 +168,7 @@
                 </div>
                 <div class="testimonial-item">
                     <div class="d-flex align-items-center mb-3">
-                        <img class="img-fluid" src="img/testimonial-2.jpg" alt="">
+                        <img class="img-fluid" src="img/7KGkTharuka.jpg" alt="">
                         <div class="ml-3">
                             <h4>K.G.K.Tharuka (29909)                            </h4>
                             <i>BSc (Hons) Software Engineering</i>
@@ -177,7 +177,7 @@
                 </div>
                 <div class="testimonial-item">
                     <div class="d-flex align-items-center mb-3">
-                        <img class="img-fluid" src="img/testimonial-3.jpg" alt="">
+                        <img class="img-fluid" src="img/1SDVSenarath.jpg" alt="">
                         <div class="ml-3">
                             <h4>SDVSenarath (30649)                            </h4>
                             <i>BSc (Hons) Software Engineering</i>
@@ -186,7 +186,7 @@
                 </div>
                 <div class="testimonial-item">
                     <div class="d-flex align-items-center mb-3">
-                        <img class="img-fluid" src="img/testimonial-4.jpg" alt="">
+                        <img class="img-fluid" src="img/4UsThilakawardana.jpg" alt="">
                         <div class="ml-3">
                             <h4>Us Thilakawardana(34326)</h4>
                             <i>BSc(Hons) software Engineering</i>
@@ -195,7 +195,7 @@
                 </div>
                 <div class="testimonial-item">
                     <div class="d-flex align-items-center mb-3">
-                        <img class="img-fluid" src="img/testimonial-1.jpg" alt="">
+                        <img class="img-fluid" src="img/5WIMperera.jpg" alt="">
                         <div class="ml-3">
                             <h4>WIM Perera (30817)                            </h4>
                             <i>BSc (Honours) Technology Management</i>
@@ -204,7 +204,7 @@
                 </div>
                 <div class="testimonial-item">
                     <div class="d-flex align-items-center mb-3">
-                        <img class="img-fluid" src="img/testimonial-2.jpg" alt="">
+                        <img class="img-fluid" src="img/6HMNprabodhana.jpg" alt="">
                         <div class="ml-3">
                             <h4>HMN Prabodhana(30690)                            </h4>
                             <i>Bsc(Hons) Software Engineering</i>
@@ -213,7 +213,7 @@
                 </div>
                 <div class="testimonial-item">
                     <div class="d-flex align-items-center mb-3">
-                        <img class="img-fluid" src="img/testimonial-3.jpg" alt="">
+                        <img class="img-fluid" src="img/3ATMJayalath.jpg" alt="">
                         <div class="ml-3">
                             <h4>ATM Jayalath(30089)                            </h4>
                             <i>Bsc(Hons) Software Engineering</i>
