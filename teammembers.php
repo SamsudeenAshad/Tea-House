@@ -38,12 +38,13 @@
             </button>
             <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                 <div class="navbar-nav ml-auto p-4">
-                    <a href="index.php" class="nav-item nav-link active">Home</a>
+                    <a href="index.php" class="nav-item nav-link ">Home</a>
                     <a href="about.php" class="nav-item nav-link">About</a>
                     <a href="service.php" class="nav-item nav-link">Service</a>
                     <a href="menu.php" class="nav-item nav-link">Menu</a>
                     <a href="reservation.php" class="nav-item nav-link">Reservation</a>
-                    <a href="teammembers.php" class="nav-item nav-link">Team Members</a>                   
+                    <a href="reservation.php" class="nav-item nav-link">Order Now</a>
+                    <a href="teammembers.php" class="nav-item nav-link active">Team Members</a>                   
                     <a href="contact.php" class="nav-item nav-link">Contact</a>
                 </div>
             </div>
@@ -78,71 +79,82 @@
                     <div class="d-flex align-items-center mb-3">
                         <img class="img-fluid" src="img/2Wgcdilshara.jpg" alt="">
                         <div class="ml-3">
-                            <h4>Wgcdilshara (29947) </h4>
-                            <i>BS(c) Hons. Computer Security</i>
+                            <h4>Wgcdilshara </h4>
+                            <i>(29947) </i>
+                            <p class="m-0"> BS(c) Hons. Computer Security</p>
                         </div>
                     </div>
-                    <p class="m-0">Sed ea amet kasd elitr stet, stet rebum et ipsum est duo elitr eirmod clita lorem. Dolor tempor ipsum sanct clita</p>
+                    
                 </div>
                 <div class="testimonial-item">
                     <div class="d-flex align-items-center mb-3">
                         <img class="img-fluid" src="img/7KGkTharuka.jpg" alt="">
                         <div class="ml-3">
-                            <h4>K.G.K.Tharuka (29909)</h4>
-                            <i>BSc (Hons) Software Engineering</i>
+                            <h4>K.G.K.Tharuka</h4>
+                            <i>(29909)</i>
+                            <p class="m-0">BSc (Hons) Software Engineering</p>
+                            
                         </div>
                     </div>
-                    <p class="m-0">Sed ea amet kasd elitr stet, stet rebum et ipsum est duo elitr eirmod clita lorem. Dolor tempor ipsum sanct clita</p>
+                    
                 </div>
                 <div class="testimonial-item">
                     <div class="d-flex align-items-center mb-3">
                         <img class="img-fluid" src="img/1SDVSenarath.jpg" alt="">
                         <div class="ml-3">
-                            <h4>SDVSenarath (30649)                            </h4>
-                            <i>BSc (Hons) Software Engineering</i>
+                            <h4>SDVSenarath                             </h4>
+                            <i>(30649)</i>
+                            <p class="m-0">BSc (Hons) Software Engineering</p>
                         </div>
                     </div>
-                    <p class="m-0">Sed ea amet kasd elitr stet, stet rebum et ipsum est duo elitr eirmod clita lorem. Dolor tempor ipsum sanct clita</p>
+                    
                 </div>
                 <div class="testimonial-item">
                     <div class="d-flex align-items-center mb-3">
                         <img class="img-fluid" src="img/4UsThilakawardana.jpg" alt="">
                         <div class="ml-3">
-                            <h4>Us Thilakawardana (34326)</h4>
-                            <i>BSc(Hons) software Engineering</i>
+                            <h4>Us Thilakawardana </h4>
+                            <i>(34326)</i>
+                            <p class="m-0">BSc(Hons) software Engineering</p>
+                            
                         </div>
                     </div>
-                    <p class="m-0">Sed ea amet kasd elitr stet, stet rebum et ipsum est duo elitr eirmod clita lorem. Dolor tempor ipsum sanct clita</p>
+                    
                 </div>
                 <div class="testimonial-item">
                     <div class="d-flex align-items-center mb-3">
                         <img class="img-fluid" src="img/5WIMperera.jpg" alt="">
                         <div class="ml-3">
-                            <h4>WIM Perera (30817)                            </h4>
-                            <i>BSc (Honours) Technology Management</i>
+                            <h4>WIM Perera                            </h4>
+                            <i>(30817)</i>
+                            <p class="m-0">BSc (Honours) Technology Management</p>
                         </div>
                     </div>
-                    <p class="m-0">Sed ea amet kasd elitr stet, stet rebum et ipsum est duo elitr eirmod clita lorem. Dolor tempor ipsum sanct clita</p>
+                    
                 </div>
                 <div class="testimonial-item">
                     <div class="d-flex align-items-center mb-3">
                         <img class="img-fluid" src="img/6HMNprabodhana.jpg" alt="">
                         <div class="ml-3">
-                            <h4>HMN Prabodhana(30690)                            </h4>
-                            <i>Bsc(Hons) Software Engineering</i>
+                            <h4>HMN Prabodhana                            </h4>
+                            <i>(30690)</i>
+                            <p class="m-0">Bsc(Hons) Software Engineering</p>
+                            
                         </div>
                     </div>
-                    <p class="m-0">Sed ea amet kasd elitr stet, stet rebum et ipsum est duo elitr eirmod clita lorem. Dolor tempor ipsum sanct clita</p>
+                    
                 </div>
                 <div class="testimonial-item">
                     <div class="d-flex align-items-center mb-3">
                         <img class="img-fluid" src="img/3ATMJayalath.jpg" alt="">
                         <div class="ml-3">
-                            <h4>ATM Jayalath(30089)                            </h4>
-                            <i>Bsc(Hons) Software Engineering</i>
+                            <h4>ATM Jayalath                            </h4>
+                            <i>(30089)</i>
+                            <p class="m-0">Bsc(Hons) Software Engineering</p>
+                           
                         </div>
                     </div>
-                    <p class="m-0">Sed ea amet kasd elitr stet, stet rebum et ipsum est duo elitr eirmod clita lorem. Dolor tempor ipsum sanct clita</p>
+                    
                 </div>
             </div>
         </div>
@@ -163,6 +175,7 @@
                         <div class="ml-3">
                             <h4>Wgcdilshara (29947)                            </h4>
                             <i>BS(c) Hons. Computer Security</i>
+                            
                         </div>
                     </div>
                 </div>
