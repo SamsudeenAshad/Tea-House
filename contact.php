@@ -178,7 +178,7 @@
             </div>
         </div>
         <div class="container-fluid text-center text-white border-top mt-4 py-4 px-sm-3 px-md-5" style="border-color: rgba(256, 256, 256, .1) !important;">
-            <p class="mb-2 text-white"> &copy; <a class="font-weight-bold" href="#">Web Application Development</a>. Group AD</a></p>
+            <p class="mb-2 text-white"> &copy; <a class="font-weight-bold" href="admin/adminlogin.php">Web Application Development</a>. Group AD</a></p>
             <p class="m-0 text-white"> <a class="font-weight-bold" href="https://nsbm.ac.lk">NSBM Green Univercity </a></p>
         </div>
     </div>
