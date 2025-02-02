@@ -6,7 +6,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>KOPPEE - Coffee Shop HTML Template</title>
+    <title>Coffee Shop </title>
     
 
     <!-- Favicon -->

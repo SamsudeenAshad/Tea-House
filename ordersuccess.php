@@ -3,8 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>KOPPEE - Coffee Shop HTML Template</title>
-    
+    <title>Coffee Shop </title>    
 
     <!-- Favicon -->
     <link href="img/favicon.ico" rel="icon">
