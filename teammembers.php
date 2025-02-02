@@ -65,14 +65,108 @@
         </div>
     </div>
     <!-- Page Header End -->
+
+    <!-- Testimonial Start -->
+    <div class="container-fluid py-5">
+        <div class="container">
+            <div class="section-title">
+                <h4 class="text-primary text-uppercase" style="letter-spacing: 5px;">Team Members</h4>
+                <h1 class="display-4">Who we are</h1>
+            </div>
+            <div class="owl-carousel testimonial-carousel">
+                <div class="testimonial-item">
+                    <div class="d-flex align-items-center mb-3">
+                        <img class="img-fluid" src="img/2Wgcdilshara.jpg" alt="">
+                        <div class="ml-3">
+                            <h4>Wgcdilshara </h4>
+                            <i>(29947) </i>
+                            <p class="m-0"> BS(c) Hons. Computer Security</p>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="testimonial-item">
+                    <div class="d-flex align-items-center mb-3">
+                        <img class="img-fluid" src="img/7KGkTharuka.jpg" alt="">
+                        <div class="ml-3">
+                            <h4>K.G.K.Tharuka</h4>
+                            <i>(29909)</i>
+                            <p class="m-0">BSc (Hons) Software Engineering</p>
+                            
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="testimonial-item">
+                    <div class="d-flex align-items-center mb-3">
+                        <img class="img-fluid" src="img/1SDVSenarath.jpg" alt="">
+                        <div class="ml-3">
+                            <h4>SDV Senarath                             </h4>
+                            <i>(30649)</i>
+                            <p class="m-0">BSc (Hons) Software Engineering</p>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="testimonial-item">
+                    <div class="d-flex align-items-center mb-3">
+                        <img class="img-fluid" src="img/4UsThilakawardana.jpg" alt="">
+                        <div class="ml-3">
+                            <h4>Us Thilakawardana </h4>
+                            <i>(34326)</i>
+                            <p class="m-0">BSc(Hons) software Engineering</p>
+                            
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="testimonial-item">
+                    <div class="d-flex align-items-center mb-3">
+                        <img class="img-fluid" src="img/5WIMperera.jpg" alt="">
+                        <div class="ml-3">
+                            <h4>WIM Perera                            </h4>
+                            <i>(30817)</i>
+                            <p class="m-0">BSc (Honours) Technology Management</p>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="testimonial-item">
+                    <div class="d-flex align-items-center mb-3">
+                        <img class="img-fluid" src="img/6HMNprabodhana.jpg" alt="">
+                        <div class="ml-3">
+                            <h4>HMN Prabodhana                            </h4>
+                            <i>(30690)</i>
+                            <p class="m-0">Bsc(Hons) Software Engineering</p>
+                            <i></i>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="testimonial-item">
+                    <div class="d-flex align-items-center mb-3">
+                        <img class="img-fluid" src="img/3ATMJayalath.jpg" alt="">
+                        <div class="ml-3">
+                            <h4>ATM Jayalath                            </h4>
+                            <i>(30089)</i>
+                            <p class="m-0">Bsc(Hons) Software Engineering</p>
+                           
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Testimonial End -->
      
 
      <!-- Testimonial Start -->
      <div class="container-fluid py-5">
         <div class="container">
             <div class="section-title">
-                <h4 class="text-primary text-uppercase" style="letter-spacing: 5px;">Team Members</h4>
-                <h1 class="display-4">Who we are</h1>
+                <h4 class="text-primary text-uppercase" style="letter-spacing: 5px;">Our Team Members</h4>
+                <h1 class="display-4">Web Application Development - Team AD</h1>
             </div>
             
              <div class="testimonial-item">
