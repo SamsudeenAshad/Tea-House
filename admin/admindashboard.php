@@ -104,7 +104,6 @@ $messagesResult = mysqli_query($conn, $messagesQuery);
             <th>Coffee Type</th>
             <th>Quantity</th>
             <th>Payment Type</th>
-            <th>Order Status</th>
         </tr>
         <?php while ($row = mysqli_fetch_assoc($orderResult)) { ?>
         <tr>
@@ -116,14 +115,7 @@ $messagesResult = mysqli_query($conn, $messagesQuery);
             <td><?php echo $row['coffee_type']; ?></td>
             <td><?php echo $row['quantity']; ?></td>
             <td><?php echo $row['payment_type']; ?></td>
-            <td>
-                <form method="POST" action="update_order.php">
-                    <input type="hidden" name="order_id" value="<?php echo $row['id']; ?>">
-                    <input type="checkbox" name="order_complete" value="1" 
-                        <?php echo ($row['order_status'] == 1) ? 'checked' : ''; ?> 
-                        onchange="this.form.submit();">
-                </form>
-            </td>
+            
         </tr>
         <?php } ?>
     </table>
